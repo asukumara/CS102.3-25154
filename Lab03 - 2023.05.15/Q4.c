@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    float deg_fah, deg_cel; // declaring the variable
-
-    // get user input
+    //...Declaring Variable
+    float deg_fah, deg_cel; 
+    //...UI
     printf("Enter the Degrees Fahrenheit = \n");
     scanf("%f", &deg_fah);
-    // process
+    //...Process
     deg_cel = ((deg_fah - 32) * 5) / 9;
-    // output
+    //...Display Output
     printf("Degrees Celsius is %.2f \n", deg_cel);
 
     return 0;
