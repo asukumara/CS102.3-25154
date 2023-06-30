@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    //Declaring Variable
+    //...Declaring Variable
     int no_1,no_2;
-    //User Input
+    //...User Input
     printf("Enter Two Numbers:");
     scanf("%d %d", &no_1, &no_2);
-    //Process and Display Output
+    //...Condition 
     if (no_1 % no_2 == 0)
     {
         printf("%d is multiple of %d \n", no_1, no_2);
@@ -15,6 +15,7 @@ int main()
     {
         printf("%d is not multiple of %d ", no_1, no_2);
     }
+    
     return 0;
 
 }
